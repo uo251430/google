@@ -1,0 +1,32 @@
+/*Especificidad: 001*/
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    background-color: #f0f8ff; 
+    color: #000;
+  }
+  
+  /*Especificidad: 002*/
+  header h1 {
+  
+       color: #370359;    
+       text-transform: uppercase;
+       padding: 1em; 
+       text-align: center;   
+    }
+  
+   /*Especificidad: 001*/
+  form {
+      display: flex;
+      flex-flow: column wrap;
+      border-style: double;
+
+    }
+
+    /*Especificidad: 002*/
+    form input{
+      text-align: center; 
+      padding: 1em;
+    }
+
+  

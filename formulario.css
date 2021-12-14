@@ -1,0 +1,15 @@
+/*Especificidad: 001*/
+form{
+    padding: 3em;
+    background-color:#e6e6fa;
+    margin: 0 auto;
+  }
+
+/*Especificidad: 012*/
+form input[type=text],input[type=tel],input[type=range],input[type=number],input[type=email], form textarea{
+ 
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 1em;
+  }
